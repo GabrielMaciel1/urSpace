@@ -10,8 +10,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
-export const Projects = () => {
-  const projects = [
+export const Descriptions = () => {
+  const descriptions = [
     {
       title: "Areli Lima",
       office: "Design & Development",
@@ -57,7 +57,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="Descriptions">
       <Container>
         <Row>
           <Col size={12}>
@@ -77,7 +77,7 @@ export const Projects = () => {
                     serviços, nossos cases e descubra como podemos ajudar sua
                     empresa.
                   </p>
-                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                  <Tab.Container id="descriptions-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
                       className="nav-pills mb-5 justify-content-center align-items-center"
@@ -101,7 +101,7 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, title) => {
+                          {descriptions.map((project, title) => {
                             return <ProjectCard key={title} {...project} />;
                           })}
                         </Row>
@@ -115,7 +115,7 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <Row>
-                          {projects.map((project, title) => {
+                          {descriptions.map((project, title) => {
                             return <ProjectCard key={title} {...project} />;
                           })}
                         </Row>

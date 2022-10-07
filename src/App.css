@@ -356,7 +356,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ descriptions Css ************/
 .project {
   padding: 80px 0;
   position: relative;
@@ -417,15 +417,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active {
   border: 1px solid rgba(255, 255, 255, 1);
 }
-.nav-link#projects-tabs-tab-first {
+.nav-link#descriptions-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
-.nav-link#projects-tabs-tab-second {
+.nav-link#descriptions-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-.nav-link#projects-tabs-tab-third {
+.nav-link#descriptions-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
@@ -482,7 +482,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ descriptions Css ************/
 .contact {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   padding: 60px 0 200px 0;
